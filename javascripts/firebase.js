@@ -1,12 +1,12 @@
-"use strict";
+'use strict';
 
 var FbAPI = (function(){
   return {
-    firebaseCredentials: function() {
-      return new Promise((resolve, reject)=> {
+    firebaseCredentials : function(){
+      return new Promise((resolve, reject) => {
         $.ajax({
           method: 'GET',
-          url: 'data/apiKeys.json'
+          url: `data/apiKeys.json`
         }).then((response)=>{
           resolve(response);
         }, (error)=>{

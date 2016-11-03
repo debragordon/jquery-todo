@@ -2,19 +2,39 @@
   "items": {
     "item0": {
       "task": "mow the lawn",
-      "isCompleted": true
+      "isCompleted": true,
+      "uid": "2gursjpX0FOAlyDspnxWSr77Jpy2"
     },
     "item1": {
       "task": "call grandma",
-      "isCompleted": false
+      "isCompleted": false,
+      "uid": "2gursjpX0FOAlyDspnxWSr77Jpy2"
+
     },
     "item2": {
       "task": "take a nap",
-      "isCompleted": false
+      "isCompleted": false,
+      "uid": "5QEgqtZjlLOnlRWua3C8YoYg2Ek2"
+
     },
     "item3": {
       "task": "go for a run",
-      "isCompleted": false
+      "isCompleted": false,
+      "uid": "rOummaBPoDTIXoZFuOEXvTm3upi2"
+    }
+  },
+  "users": {
+    "user1": {
+      "username": "a",
+      "uid": "2gursjpX0FOAlyDspnxWSr77Jpy2"
+    },
+    "user2": {
+      "username": "b",
+      "uid": "5QEgqtZjlLOnlRWua3C8YoYg2Ek2"
+    },
+    "user3": {
+      "username": "c",
+      "uid": "rOummaBPoDTIXoZFuOEXvTm3upi2"
     }
   }
 }

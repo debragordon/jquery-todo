@@ -84,13 +84,16 @@ li {
 }
 
 ul li.editMode input[type=text] {
-  display:block;
+  display: block;
 }
 
 ul li.editMode label {
-  display:none;
+  display: none;
 }
 
+.hidden {
+  display: none;
+}
 
 
 
