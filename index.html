@@ -14,9 +14,9 @@
     <button class="btn btn-lg btn-success col-xs-6" id="loginButton">Login</button>
     <button class="btn btn-lg btn-primary col-xs-6" id="registerButton">Register</button>
   </div>
-
   <div class="col-xs-offset-2 col-xs-8 hide"  id="todo-container">
     <h1>Todo App</h1>
+    <div id="logout-container"></div>
     <h3>New Todo</h3>
     <div class="col-xs-12 new-text-container">
       <div  class="col-xs-10 newtodo-input ">
@@ -29,6 +29,7 @@
 
     <h3>Todo</h3>
     <ul id="incomplete-tasks"></ul>
+
     <h3>Completed</h3>
     <ul id="completed-tasks"></ul>
   </div>
@@ -39,6 +40,7 @@
   <script src="/javascripts/firebase.js"></script>
   <script src="/javascripts/firebaseMethods.js"></script>
   <script src="/javascripts/firebaseAuth.js"></script>
+  <script src="/javascripts/firebaseUser.js"></script>
   <script src="/javascripts/main.js"></script>
 </body>
 </html>

@@ -22,5 +22,19 @@
       "isCompleted": false,
       "uid": "rOummaBPoDTIXoZFuOEXvTm3upi2"
     }
+  },
+  "users": {
+    "user1": {
+      "username": "a",
+      "uid": "2gursjpX0FOAlyDspnxWSr77Jpy2"
+    },
+    "user2": {
+      "username": "b",
+      "uid": "5QEgqtZjlLOnlRWua3C8YoYg2Ek2"
+    },
+    "user3": {
+      "username": "c",
+      "uid": "rOummaBPoDTIXoZFuOEXvTm3upi2"
+    }
   }
 }

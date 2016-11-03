@@ -6,7 +6,7 @@ var FbAPI = (function(){
       return new Promise((resolve, reject) => {
         $.ajax({
           method: 'GET',
-          url: `apiKeys.json`
+          url: `data/apiKeys.json`
         }).then((response)=>{
           resolve(response);
         }, (error)=>{
